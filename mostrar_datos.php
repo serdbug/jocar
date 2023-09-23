@@ -2,7 +2,7 @@
 require_once "conexcion.php";
 
 // Consulta a la base de datos
-$sql = "SELECT * FROM productos";
+$sql = "SELECT * FROM stock";
 $result = $conn->query($sql);
 
 // Mostrar los datos en una tabla HTML
